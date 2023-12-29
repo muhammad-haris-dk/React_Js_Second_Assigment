@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.name {
+  font-family: fantasy;
+  background-color: aqua;
+  font-size: 50px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+.backgroundImage {
+  background-image: url(./assets/img/bg-masthead.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-size: xx-large;
+}
+.input {
+  width: 210px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(33, 104, 208);
+  color: white;
+}
+.Section_01_Center {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px; */
+  text-align: center;
+  display: inline-block;
+  /* margin-top: 50px;
+  margin-left: 50px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Section_01_Second_Center {
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section_Center {
+  display: flex;
+  justify-content: space-around;
+}
+.Section_02_Left {
+  width: 50%;
+  height: 50%;
+}
+.Section_02_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section_02_Right {
+  width: 50%;
+  height: 50%;
+}
+.Section_02_Image {
+  width: 100%;
+  height: 100%;
+}
+.Section_03_Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Section_03_Image {
+  width: 50%;
+  height: 50%;
+}
+.Section_03_Right {
+  width: 50%;
+  height: 50%;
+}
+.Section_04_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section_04_Left {
+  width: 50%;
+  height: 50%;
+}
+.Section_04_Right {
+  width: 50%;
+  height: 50%;
+}
+.Section_05_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.margret {
+  text-align: center;
+}
+.Section_06_Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section_06_BackgroundImage {
+  background-image: url(./assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section_06_Text {
+  color: white;
+}
+.Section_06_inp {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.Section_06_btn {
+  background-color: rgb(33, 104, 208);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.Footer_Section_Main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.Footer_Section_Right_Side {
+  width: 45%;
+}
+.Footer_Section_Left_Side {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  margin-right: 35px;
+}
+.Navbar_Section_Main {
+  display: flex;
+  justify-content: center;
+}
+.Navbar_Section_Text {
+  padding: 10px;
+  width: 40%;
+  font-size: large;
+}
+.Navbar_Section_Btn{
+  padding: 4px;
+}
+.Navbar_Section_Button{
+  padding: 8px;
+  background: rgb(33, 104, 208);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
